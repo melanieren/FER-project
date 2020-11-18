@@ -25,7 +25,7 @@ Two types of CNNs were explored and compared:
 ## Train and evaluate a Simple CNN model on FER-2013
 1. Run the [simple_cnn](https://github.com/melanieren/FER-project/blob/main/simple_CNN.ipynb) notebook to train a variety of CNN models on the FER-2013 dataset.
 2. The notebook will automatically find the best hyperparameters on the validation set and output the test set accuracy and prediction distribution as shown below.
-![simple_cnn_output](simple_CNN_output.jpg)
+![simple_cnn_output](simple_CNN_output.png)
 
 ## Train and evaluate a Residual Network model on FER-2013
 1. Run the [resnet](https://github.com/melanieren/FER-project/blob/main/resnet.ipynb) notebook to train a residual network model on the FER-2013 dataset.
@@ -35,8 +35,8 @@ Two types of CNNs were explored and compared:
 1. Run the [preprocess_msfde](https://github.com/melanieren/FER-project/blob/main/preprocess_msfde.ipynb) notebook to generate preprocessed data. You may need to modify file load and save locations to fit your Google Drive layout
 2. Ensure the Simple CNN model and Residual Network model have already been saved to your drive
 3. Run the [MSFDE_evaluate](https://github.com/melanieren/FER-project/blob/main/MSFDE_evaluate.ipynb) notebook to generate predictions from the best simple CNN and Residual Network models on the MSFDE dataset. For each race, the notebook will output the accuracy and prediction distribution as shown below.
-![msfde_cnn_eval_output](MSFDE_eval_cnn_output.jpg)
-![msfde_resnet_eval_output](MSFDE_eval_resnet_output.jpg)
+![msfde_cnn_eval_output](MSFDE_eval_CNN_output.png)
+![msfde_resnet_eval_output](MSFDE_eval_resnet_output.png)
 
 ## Datasets 
 - [FER-2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data): The FER-2013 dataset was used to train and evaluate both types of models. 
