@@ -35,6 +35,7 @@ Two types of CNNs were explored and compared:
 1. Run the [preprocess_msfde](https://github.com/melanieren/FER-project/blob/main/preprocess_msfde.ipynb) notebook to generate preprocessed data. You may need to modify file load and save locations to fit your Google Drive layout
 2. Ensure the Simple CNN model and Residual Network model have already been saved to your drive
 3. Run the [MSFDE_evaluate](https://github.com/melanieren/FER-project/blob/main/MSFDE_evaluate.ipynb) notebook to generate predictions from the best simple CNN and Residual Network models on the MSFDE dataset. For each race, the notebook will output the accuracy and prediction distribution as shown below.
+
 ![msfde_cnn_eval_output](MSFDE_eval_CNN_output.png)
 ![msfde_resnet_eval_output](MSFDE_eval_resnet_output.png)
 
